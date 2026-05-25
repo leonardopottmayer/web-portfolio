@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "label": "Full Stack Software Engineer",
+    "tagline": "Exploring ideas, building technology.",
+    "cta_contact": "Contact me",
+    "cta_resume": "Resume",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "label": "About",
+    "heading": "Who I am",
+    "paragraph": "I'm Leonardo Pottmayer, a full stack software engineer from Pomerode, SC — Brazil. Passionate about software since 2019, I focus on building robust, scalable solutions that generate real business impact. I hold a Bachelor's in Computer Science from FURB, where my thesis on applying computer vision to disease diagnosis contributed to advancing the field and earned a perfect score. Naturally curious, driven by continuous learning.",
+    "stats": {
+      "studying": "Years learning",
+      "experience": "Years of experience",
+      "technologies": "Technologies",
+      "commits": "Commits & counting"
+    }
+  },
+  "experience": {
+    "label": "Experience",
+    "heading": "Work History",
+    "present": "Present",
+    "roles": {
+      "pleno": "Software Engineer",
+      "junior": "Junior Software Engineer",
+      "aprendiz": "Programming Apprentice"
+    },
+    "quicksoft_pleno": {
+      "description": "Full stack development with primary focus on .NET (Framework, 7, 8 and 10) — working across legacy systems and the modernized service-based ERP successor. Continued involvement in the service-based system started as a junior, contributing to technical and system design decisions. Key deliveries include implementing complex integrations with third-party systems (B3, banks, Power BI) and, in some opportunities, taking part in database modeling. Grew into a more active role in system design discussions — analyzing trade-offs and becoming a reference point for some technical decisions. Also took on more responsibility as a code reviewer within the team."
+    },
+    "quicksoft_junior": {
+      "description": "Full stack development focused on .NET (Framework, 7, and 8), React, and Oracle. Built responsive interfaces with React and Ant Design integrated with structured APIs. Developed and maintained PL/SQL procedures, jobs, and packages on Oracle. Contributed to ERP Qprof — a receivables anticipation platform for FIDCs, factoring companies, and securitization firms. Key deliveries: reduced ERP startup time from ~4 minutes to ~1 minute; took key design decisions and owned several components in the first project with a modern stack — a new service-based system built with .NET 8, hexagonal architecture, React + Web API, Redis, and RabbitMQ, designed as the ERP's successor. Also used Node.js and Python for auxiliary services."
+    },
+    "quicksoft_aprendiz": {
+      "description": "Full stack apprentice focused on .NET web applications. Gained solid experience with Oracle databases — creating and maintaining PL/SQL procedures, jobs, and packages. Contributed to ERP Qprof — a receivables anticipation system for FIDCs, factoring companies, and securitization firms, developing new features and continuously evolving the platform. Also worked with .NET Framework Web Forms applications."
+    }
+  },
+  "education": {
+    "label": "Education",
+    "heading": "Academic Background",
+    "present": "Present",
+    "furb": {
+      "role": "B.Sc. Computer Science",
+      "description": "Bachelor's degree in Computer Science, graduated December 2025. Thesis developed a model for analyzing neuron microscopy images, detecting and counting atypical neurons through morphological changes — a study that contributes to the field of disease detection via computer vision. Achieved good results and was awarded a perfect score, evaluated by professors from both Computer Science and Biomedicine. Solid curriculum covering CS fundamentals — algorithms, data structures, compilers, computer architecture, and information security — alongside applied disciplines in software engineering, artificial intelligence, machine learning, and image processing."
+    }
+  },
+  "skills": {
+    "label": "Skills",
+    "heading": "Skills & Expertise",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "database": "Database",
+      "infrastructure": "Infrastructure & DevOps",
+      "practices": "Practices & Methods",
+      "soft": "Soft Skills"
+    },
+    "soft": {
+      "requirements_gathering": "Requirements Gathering",
+      "business_communication": "Business Communication",
+      "problem_solving": "Problem Solving",
+      "teamwork": "Teamwork",
+      "continuous_learning": "Continuous Learning",
+      "adaptability": "Adaptability",
+      "creativity": "Creativity",
+      "proactivity": "Proactivity",
+      "empathy": "Empathy",
+      "ethics": "Ethics"
+    }
+  },
+  "contact": {
+    "label": "Contact",
+    "heading": "Get in touch",
+    "subheading": "Interested in new challenges where I can keep growing, contribute to the team, and generate real product impact. Feel free to reach out.",
+    "links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "Email",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "notfound": {
+    "code": "404",
+    "heading": "Page not found",
+    "description": "Looks like this route doesn't exist.",
+    "back": "Back to home"
+  },
+  "footer": {
+    "quote": "The mind that opens to a new idea never returns to its original size."
+  },
+  "seo": {
+    "title": "Leonardo Pottmayer – Full Stack Software Engineer",
+    "description": "Full stack software engineer from Brazil specializing in .NET, React, TypeScript and Oracle. CS graduate from FURB (2025), currently Software Engineer at Quick Soft Tecnologia."
+  }
+}

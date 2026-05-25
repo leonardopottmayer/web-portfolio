@@ -1,0 +1,103 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "education": "Formação",
+    "skills": "Habilidades",
+    "contact": "Contato"
+  },
+  "hero": {
+    "label": "Engenheiro de Software Full Stack",
+    "tagline": "Explorando ideias, criando tecnologia.",
+    "cta_contact": "Fale comigo",
+    "cta_resume": "Currículo",
+    "scroll": "Rolar"
+  },
+  "about": {
+    "label": "Sobre",
+    "heading": "Quem sou eu",
+    "paragraph": "Sou Leonardo Pottmayer, engenheiro de software full stack de Pomerode, SC — Brasil. Apaixonado por software desde 2019, foco em construir soluções robustas e escaláveis que geram impacto real no negócio. Sou bacharel em Ciência da Computação pela FURB, onde meu TCC sobre aplicação de visão computacional no diagnóstico de doenças contribuiu para o avanço da área e recebeu nota máxima. Curioso por natureza, movido pelo aprendizado contínuo.",
+    "stats": {
+      "studying": "Anos aprendendo",
+      "experience": "Anos de experiência",
+      "technologies": "Tecnologias",
+      "commits": "Commits e contando"
+    }
+  },
+  "experience": {
+    "label": "Experiência",
+    "heading": "Histórico Profissional",
+    "present": "Atual",
+    "roles": {
+      "pleno": "Engenheiro de Software Pleno",
+      "junior": "Engenheiro de Software Júnior",
+      "aprendiz": "Aprendiz de Programador"
+    },
+    "quicksoft_pleno": {
+      "description": "Desenvolvimento full stack com foco principal em .NET (Framework, 7, 8 e 10) — atuando tanto em sistemas legados quanto no novo sistema em serviços, continuação modernizada do ERP. Continuidade no projeto iniciado como júnior, com contribuições em decisões técnicas e de system design. Principais entregas: implementação de integrações complexas com sistemas externos (B3, bancos, Power BI) e, em algumas oportunidades, participação na modelagem de banco de dados. Crescimento para um papel mais ativo em discussões de system design — analisando trade-offs e tornando-me referência em algumas decisões técnicas. Também assumi maior responsabilidade como code reviewer no time."
+    },
+    "quicksoft_junior": {
+      "description": "Desenvolvimento full stack com .NET (Framework, 7 e 8), React e Oracle. Construção de interfaces responsivas com React e Ant Design integradas a APIs estruturadas. Desenvolvimento e manutenção de procedures, jobs e pacotes PL/SQL no Oracle. Contribuição ao ERP Qprof — plataforma de antecipação de recebíveis para FIDCs, factorings e securitizadoras. Entregas de destaque: redução do tempo de start do ERP de ~4 minutos para ~1 minuto; tomada de decisões de design e responsabilidade por vários pontos do primeiro projeto com stack moderna — novo sistema em serviços com .NET 8, arquitetura hexagonal, React + Web API, Redis e RabbitMQ, concebido como continuação do ERP. Uso de Node.js e Python em serviços auxiliares."
+    },
+    "quicksoft_aprendiz": {
+      "description": "Aprendiz full stack com foco em aplicações web .NET. Experiência sólida com Oracle — criação e manutenção de procedures, jobs e pacotes PL/SQL. Contribuição ao ERP Qprof — sistema de antecipação de recebíveis para FIDCs, factorings e securitizadoras, desenvolvendo novas funcionalidades e evoluindo continuamente a plataforma. Atuação em aplicações Web Forms com .NET Framework."
+    }
+  },
+  "education": {
+    "label": "Formação",
+    "heading": "Formação Acadêmica",
+    "present": "Atual",
+    "furb": {
+      "role": "Bacharelado em Ciência da Computação",
+      "description": "Bacharel em Ciência da Computação, formado em dezembro de 2025. TCC com desenvolvimento de um modelo para análise de imagens microscópicas de neurônios, realizando detecção e contagem de neurônios atípicos através de alterações morfológicas — estudo que contribui para o campo de detecção de doenças por visão computacional. Bons resultados e nota máxima, avaliado por professores das áreas de Ciência da Computação e Biomedicina. Grade curricular sólida nos fundamentos da ciência da computação — algoritmos, estruturas de dados, compiladores, arquitetura de computadores e segurança da informação — além de disciplinas aplicadas em programação, engenharia de software, inteligência artificial, machine learning e processamento de imagens."
+    }
+  },
+  "skills": {
+    "label": "Habilidades",
+    "heading": "Habilidades & Competências",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "database": "Banco de Dados",
+      "infrastructure": "Infraestrutura & DevOps",
+      "practices": "Práticas & Métodos",
+      "soft": "Soft Skills"
+    },
+    "soft": {
+      "requirements_gathering": "Levantamento de Requisitos",
+      "business_communication": "Comunicação com Negócio",
+      "problem_solving": "Resolução de Problemas",
+      "teamwork": "Trabalho em Equipe",
+      "continuous_learning": "Aprendizado Contínuo",
+      "adaptability": "Adaptabilidade",
+      "creativity": "Criatividade",
+      "proactivity": "Proatividade",
+      "empathy": "Empatia",
+      "ethics": "Ética"
+    }
+  },
+  "contact": {
+    "label": "Contato",
+    "heading": "Fale comigo",
+    "subheading": "Tenho interesse em oportunidades e desafios onde eu possa continuar evoluindo tecnicamente, contribuir com o time e gerar impacto real no produto. Pode me chamar.",
+    "links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "email": "E-mail",
+      "whatsapp": "WhatsApp"
+    }
+  },
+  "notfound": {
+    "code": "404",
+    "heading": "Página não encontrada",
+    "description": "Parece que essa rota não existe.",
+    "back": "Voltar ao início"
+  },
+  "footer": {
+    "quote": "A mente que se abre a uma nova ideia jamais voltará ao seu tamanho original."
+  },
+  "seo": {
+    "title": "Leonardo Pottmayer – Engenheiro de Software Full Stack",
+    "description": "Engenheiro de software full stack especializado em .NET, React, TypeScript e Oracle. Bacharel em Ciência da Computação pela FURB (2025), atualmente Engenheiro Pleno na Quick Soft Tecnologia."
+  }
+}
