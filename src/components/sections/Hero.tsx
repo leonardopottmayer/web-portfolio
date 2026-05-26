@@ -41,7 +41,7 @@ export function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 max-w-2xl">
+      <div className="relative z-10 w-full flex flex-col items-center">
         {/* Label */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -54,14 +54,14 @@ export function Hero() {
           </span>
         </motion.div>
 
-        {/* Name */}
+        {/* Name — w-full so text-align:center is relative to the full viewport width */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
-          className="mb-6"
+          className="w-full mb-6"
         >
-          <h1 className="font-display leading-none">
+          <h1 className="font-display leading-none text-center">
             <span className="block text-5xl md:text-7xl lg:text-8xl font-extrabold text-text-primary">
               {personal.name.first}
             </span>
