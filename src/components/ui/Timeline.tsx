@@ -19,6 +19,19 @@ function formatPeriod(start: string, end: string | null, presentLabel: string): 
   return `${fmt(start)} — ${end ? fmt(end) : presentLabel}`
 }
 
+function BulletText({ text }: { text: string }) {
+  const colonIdx = text.indexOf(':')
+  if (colonIdx === -1) return <span>{text}</span>
+  const label = text.slice(0, colonIdx)
+  const rest = text.slice(colonIdx + 1)
+  return (
+    <span>
+      <span className="font-semibold text-text-primary">{label}:</span>
+      {rest}
+    </span>
+  )
+}
+
 export function Timeline({ entries, presentKey }: TimelineProps) {
   const { t } = useTranslation()
   const presentLabel = t(presentKey)
@@ -38,17 +51,15 @@ export function Timeline({ entries, presentKey }: TimelineProps) {
               </div>
 
               {/* content */}
-              <div className="pb-2">
+              <div className="pb-2 w-full">
+                {/* org header */}
                 <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-1">
                   <h3 className="font-display font-semibold text-lg text-text-primary leading-tight">
-                    {t(entry.roleKey)}
-                  </h3>
-                  <span className="text-accent font-body font-medium text-sm">
                     {entry.organization}
-                  </span>
+                  </h3>
                 </div>
 
-                <div className="flex flex-wrap gap-x-4 gap-y-1 mb-3">
+                <div className="flex flex-wrap gap-x-4 gap-y-1 mb-4">
                   <span className="font-mono text-xs text-text-muted">
                     {formatPeriod(entry.period.start, entry.period.end, presentLabel)}
                   </span>
@@ -57,9 +68,50 @@ export function Timeline({ entries, presentKey }: TimelineProps) {
                   </span>
                 </div>
 
-                <p className="font-body text-text-secondary text-sm leading-relaxed mb-4 max-w-2xl">
-                  {t(entry.descriptionKey)}
-                </p>
+                {/* sub-roles */}
+                {entry.subRoles && (
+                  <div className="space-y-6 mb-5">
+                    {entry.subRoles.map(role => {
+                      const bullets = t(role.bulletsKey, { returnObjects: true })
+                      const bulletList = Array.isArray(bullets) ? bullets as string[] : []
+
+                      return (
+                        <div key={role.id}>
+                          <div className="flex flex-wrap items-baseline gap-x-3 gap-y-0.5 mb-1">
+                            <h4 className="font-display font-semibold text-base text-accent leading-tight">
+                              {t(role.roleKey)}
+                            </h4>
+                            <span className="font-mono text-xs text-text-muted">
+                              {formatPeriod(role.period.start, role.period.end, presentLabel)}
+                            </span>
+                          </div>
+
+                          <p className="font-body text-text-secondary text-sm leading-relaxed mb-2 max-w-2xl">
+                            {t(role.introKey)}
+                          </p>
+
+                          {bulletList.length > 0 && (
+                            <ul className="space-y-1.5 max-w-2xl">
+                              {bulletList.map((bullet, j) => (
+                                <li key={j} className="font-body text-text-secondary text-sm flex gap-2">
+                                  <span className="text-accent flex-shrink-0 mt-0.5">▸</span>
+                                  <BulletText text={bullet} />
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      )
+                    })}
+                  </div>
+                )}
+
+                {/* simple description fallback */}
+                {!entry.subRoles && entry.descriptionKey && (
+                  <p className="font-body text-text-secondary text-sm leading-relaxed mb-4 max-w-2xl">
+                    {t(entry.descriptionKey)}
+                  </p>
+                )}
 
                 {entry.tags && entry.tags.length > 0 && (
                   <div className="flex flex-wrap gap-2">

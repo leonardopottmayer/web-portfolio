@@ -28,19 +28,27 @@
     "label": "Experience",
     "heading": "Work History",
     "present": "Present",
-    "roles": {
-      "pleno": "Software Engineer",
-      "junior": "Junior Software Engineer",
-      "aprendiz": "Programming Apprentice"
-    },
     "quicksoft_pleno": {
-      "description": "Full stack development with primary focus on .NET (Framework, 7, 8 and 10) — working across legacy systems and the modernized service-based ERP successor. Continued involvement in the service-based system started as a junior, contributing to technical and system design decisions. Key deliveries include implementing complex integrations with third-party systems (B3, banks, Power BI) and, in some opportunities, taking part in database modeling. Grew into a more active role in system design discussions — analyzing trade-offs and becoming a reference point for some technical decisions. Also took on more responsibility as a code reviewer within the team."
+      "role": "Mid-Level Software Engineer",
+      "intro": "In a role of greater technical responsibility, I took on more complex demands with increasing autonomy, maintaining involvement across all product projects and contributing to new projects, process improvements, and technical decisions.",
+      "bullets": [
+        "Integrations: Implemented integrations with multiple financial market systems, including Brazilian banks with PIX support, connecting the ERP to external systems to automate steps in the receivables anticipation flow.",
+        "Code review: Took on the role of code reviewer and technical reference for the team, being regularly consulted by colleagues on architecture and design decisions, contributing to standardization and delivery quality."
+      ]
     },
     "quicksoft_junior": {
-      "description": "Full stack development focused on .NET (Framework, 7, and 8), React, and Oracle. Built responsive interfaces with React and Ant Design integrated with structured APIs. Developed and maintained PL/SQL procedures, jobs, and packages on Oracle. Contributed to ERP Qprof — a receivables anticipation platform for FIDCs, factoring companies, and securitization firms. Key deliveries: reduced ERP startup time from ~4 minutes to ~1 minute; took key design decisions and owned several components in the first project with a modern stack — a new service-based system built with .NET 8, hexagonal architecture, React + Web API, Redis, and RabbitMQ, designed as the ERP's successor. Also used Node.js and Python for auxiliary services."
+      "role": "Junior Software Engineer",
+      "intro": "Full stack development on the legacy ERP (Qprof) and on projects with a modern stack, with growing technical ownership and involvement in system design decisions. Throughout the period, I delivered integrations, APIs, and improvements across multiple product fronts.",
+      "bullets": [
+        "ERP Qprof: Reduced ERP Qprof's debug startup time by ~75% (from ~4 to ~1 minute) by converting unnecessary synchronous routines to asynchronous and optimizing high-cost routines, boosting development team productivity.",
+        "New Project: Participated in the development of the company's first project using hexagonal architecture and multi-tenancy with .NET 7/8, React, TypeScript, Docker, and Redis — from design to implementation, serving as the technical foundation for ERP modernization.",
+        "ERP Modernization: Took technical ownership of the ERP Qprof modernization toward a microservices architecture, contributing to implementation and system design decisions that defined the structure and ensured long-term scalability and maintainability."
+      ]
     },
     "quicksoft_aprendiz": {
-      "description": "Full stack apprentice focused on .NET web applications. Gained solid experience with Oracle databases — creating and maintaining PL/SQL procedures, jobs, and packages. Contributed to ERP Qprof — a receivables anticipation system for FIDCs, factoring companies, and securitization firms, developing new features and continuously evolving the platform. Also worked with .NET Framework Web Forms applications."
+      "role": "Programming Apprentice",
+      "intro": "First professional experience in the technology field, learning in practice how software development works in a real product. Worked on developing and maintaining platform features using ASP.NET Web Forms applications and Oracle PL/SQL routines.",
+      "bullets": []
     }
   },
   "education": {

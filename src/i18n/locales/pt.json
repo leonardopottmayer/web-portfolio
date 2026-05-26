@@ -28,19 +28,27 @@
     "label": "Experiência",
     "heading": "Histórico Profissional",
     "present": "Atual",
-    "roles": {
-      "pleno": "Engenheiro de Software Pleno",
-      "junior": "Engenheiro de Software Júnior",
-      "aprendiz": "Aprendiz de Programador"
-    },
     "quicksoft_pleno": {
-      "description": "Desenvolvimento full stack com foco principal em .NET (Framework, 7, 8 e 10) — atuando tanto em sistemas legados quanto no novo sistema em serviços, continuação modernizada do ERP. Continuidade no projeto iniciado como júnior, com contribuições em decisões técnicas e de system design. Principais entregas: implementação de integrações complexas com sistemas externos (B3, bancos, Power BI) e, em algumas oportunidades, participação na modelagem de banco de dados. Crescimento para um papel mais ativo em discussões de system design — analisando trade-offs e tornando-me referência em algumas decisões técnicas. Também assumi maior responsabilidade como code reviewer no time."
+      "role": "Engenheiro de Software Pleno",
+      "intro": "Em papel de maior responsabilidade técnica, assumi demandas mais complexas com autonomia crescente, mantendo atuação em todos os projetos do produto e contribuindo em novos projetos, melhorias de processos e decisões técnicas.",
+      "bullets": [
+        "Integrações: Implementei integrações com múltiplos sistemas do mercado financeiro, incluindo bancos brasileiros com suporte a PIX, conectando o ERP a sistemas externos para automatizar etapas do fluxo de antecipação de recebíveis.",
+        "Code review: Assumi o papel de code reviewer e referência técnica do time, sendo consultado recorrentemente por colegas sobre decisões de arquitetura e design, contribuindo para a padronização e qualidade das entregas."
+      ]
     },
     "quicksoft_junior": {
-      "description": "Desenvolvimento full stack com .NET (Framework, 7 e 8), React e Oracle. Construção de interfaces responsivas com React e Ant Design integradas a APIs estruturadas. Desenvolvimento e manutenção de procedures, jobs e pacotes PL/SQL no Oracle. Contribuição ao ERP Qprof — plataforma de antecipação de recebíveis para FIDCs, factorings e securitizadoras. Entregas de destaque: redução do tempo de start do ERP de ~4 minutos para ~1 minuto; tomada de decisões de design e responsabilidade por vários pontos do primeiro projeto com stack moderna — novo sistema em serviços com .NET 8, arquitetura hexagonal, React + Web API, Redis e RabbitMQ, concebido como continuação do ERP. Uso de Node.js e Python em serviços auxiliares."
+      "role": "Engenheiro de Software Júnior",
+      "intro": "Atuação full stack no ERP legado (Qprof) e em projetos com stack moderna, com crescente ownership técnico e participação em decisões de system design. Ao longo do período, entreguei integrações, APIs e melhorias em múltiplas frentes do produto.",
+      "bullets": [
+        "ERP Qprof: Reduzi em ~75% o tempo de inicialização do ERP Qprof em modo debug (de ~4 para ~1 minuto) ao converter rotinas síncronas em assíncronas e otimizar rotinas de alto custo, aumentando a produtividade do time de desenvolvimento.",
+        "Novo projeto: Participei do desenvolvimento do primeiro projeto da empresa com arquitetura hexagonal e multi tenancy utilizando .NET 7/8, React, TypeScript, Docker e Redis — do design à implementação, servindo de base técnica para a modernização do ERP.",
+        "Modernização do ERP: Assumi ownership técnico na modernização do ERP Qprof para microsserviços, contribuindo na implementação e em decisões de system design que definiram a estrutura e garantiram escalabilidade e manutenibilidade a longo prazo."
+      ]
     },
     "quicksoft_aprendiz": {
-      "description": "Aprendiz full stack com foco em aplicações web .NET. Experiência sólida com Oracle — criação e manutenção de procedures, jobs e pacotes PL/SQL. Contribuição ao ERP Qprof — sistema de antecipação de recebíveis para FIDCs, factorings e securitizadoras, desenvolvendo novas funcionalidades e evoluindo continuamente a plataforma. Atuação em aplicações Web Forms com .NET Framework."
+      "role": "Aprendiz de Programador",
+      "intro": "Primeiro contato com o ambiente profissional na área de tecnologia, aprendendo na prática como o desenvolvimento de software funciona em um produto real. Atuei no desenvolvimento e manutenção de funcionalidades da plataforma em aplicações Web Forms com ASP.NET e rotinas Oracle PL/SQL.",
+      "bullets": []
     }
   },
   "education": {

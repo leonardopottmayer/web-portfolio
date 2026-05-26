@@ -9,7 +9,7 @@ export const skills: SkillCategory[] = [
   {
     id: 'backend',
     labelKey: 'skills.categories.backend',
-    items: ['C#', '.NET / ASP.NET', '.NET Framework', 'Node.js', 'Python', 'Web Forms', 'REST APIs'],
+    items: ['C#', '.NET / ASP.NET', '.NET Framework', 'Node.js', 'Python', 'Web Forms', 'REST APIs', 'Swagger', 'xUnit'],
   },
   {
     id: 'frontend',
@@ -29,7 +29,7 @@ export const skills: SkillCategory[] = [
   {
     id: 'practices',
     labelKey: 'skills.categories.practices',
-    items: ['Clean Code', 'SOLID', 'System Design', 'Microservices', 'Scrum', 'Hexagonal Architecture', 'AI & Prompt Engineering'],
+    items: ['Clean Code', 'SOLID', 'System Design', 'Microservices', 'Scrum', 'Hexagonal Architecture', 'Clean Architecture', 'AI & Prompt Engineering'],
   },
   {
     id: 'soft',
